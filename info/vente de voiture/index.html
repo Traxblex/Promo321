@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoVente - Votre destination pour l'achat de voitures</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">AutoVente</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#accueil">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#voitures">Nos Voitures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="accueil" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-md-6">
+                    <h1>Trouvez la voiture de vos rêves</h1>
+                    <p class="lead">Des véhicules de qualité à des prix compétitifs</p>
+                    <a href="#voitures" class="btn btn-primary btn-lg">Voir nos voitures</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section Voitures -->
+    <section id="voitures" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Nos Voitures</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/images/car1.jpg" class="card-img-top" alt="Voiture 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Peugeot 208</h5>
+                            <p class="card-text">2022 | Essence | 15 000 km</p>
+                            <p class="price">19 990 €</p>
+                            <a href="#" class="btn btn-primary">Voir les détails</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/images/car2.jpg" class="card-img-top" alt="Voiture 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Renault Clio</h5>
+                            <p class="card-text">2021 | Diesel | 25 000 km</p>
+                            <p class="price">16 990 €</p>
+                            <a href="#" class="btn btn-primary">Voir les détails</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/images/car3.jpg" class="card-img-top" alt="Voiture 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Volkswagen Golf</h5>
+                            <p class="card-text">2023 | Hybride | 5 000 km</p>
+                            <p class="price">28 990 €</p>
+                            <a href="#" class="btn btn-primary">Voir les détails</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contactez-nous</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Votre nom">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Votre email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Votre message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>AutoVente</h5>
+                    <p>Votre spécialiste de la vente de voitures d'occasion</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <p>Email: contact@autovente.fr<br>
+                    Tél: 01 23 45 67 89</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Horaires</h5>
+                    <p>Lun-Ven: 9h-19h<br>
+                    Sam: 9h-18h</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+body{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+#pageHead{
+    display: flex;
+    flex-direction: row;
+    background: black;
+    color: white;
+    align-items: center;
+}
+
+#pageHead img{
+    width: 100px;
+    margin: 10px;
+}
+
+#pageHead h1{
+    flex: 1;
+    text-align: center;
+}
+
+#pageMenu{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    color: black;
+    justify-content: end;
+    padding: 15px;
+}
+
+#pageMenu ul{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+
+#pageMenu ul li{
+    display: inline;
+}
+
+#pageMenu ul li a{
+ padding: 10px;
+ border: 1px solid black;
+ text-decoration: none;
+ color: black;
+}
+
+#pageMenu ul li a:hover{
+ background: black;
+ color: white;
+}
+
+
+#pageContent{
+    display: flex;
+    flex-direction: column;
+    background: blanchedalmond;
+    margin: 10px;
+    color: black;
+    margin-bottom: 110px;
+}
+
+.paragraphe{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.paragraphe img{
+    width: 400px;
+    height: fit-content;
+    margin:10px;
+    border-radius: 25px;
+    border: 1px solid black;
+
+}
+#pageContact{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#pageContact label{
+    margin: 10px;
+}
+#pageFooter{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 10px;
+    align-items: center;
+}
+
+#pageFooter p{
+    flex: 1;
+}
+
+#pageFooter a i{
+    margin: 10px;
+    font-size: 45px;
+    color: white;
+}
+
+#pageFooter a:last-child{
+    margin-right: 10px;
+}

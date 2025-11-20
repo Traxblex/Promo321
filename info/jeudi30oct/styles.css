@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+/* # sert a appelé les id*/
+#pageHead{ 
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background:black;
+    color: white;
+    align-items: center;
+}
+#pageHead img{
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+#pageHead h1{
+    flex: 1;
+    text-align: center;
+}
+#pageMenu{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    background:white;
+    color: black;
+    justify-content: end;
+    padding: 15px;
+}
+#pageMenu ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#pageMenu ul li{
+    display: inline;
+}
+#pageMenu ul li a{
+    padding: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+#pageMenu ul li a:hover{
+    color: white;
+}
+#pagecontent{
+    display: flex;
+    flex-direction: column;
+    background:blanchedalmond;
+    margin: 10px;
+    color: white;
+    height: 500px;
+}
+.paragraphe{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.paragraphe img{
+    width: 400px;
+    margin: 10px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+#pageFooter{
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    background: black;
+    color: white;
+}
