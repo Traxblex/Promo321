@@ -38,10 +38,35 @@
         </nav>
     </header>
  <main class="container mt-4">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image1carrousel.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
         <h1>Bienvenue sur la place des services PROMO 321</h1>
         <p>Découvrez ici l'ensemble des cours de BTS SIO SLAM de la Promo 321 du CFA INSTA.Si vous etes perdu dans vos révision vous êtes au bon endroit.</p>
         <p>Utilisez la barre de navigation pour accéder aux différentes matières.</p>
-             <a href="eleve.php" class="btn btn-danger btn-lg">Elèves</a>
+        <div class="container text-center" style="background: rgba(72, 102, 236, 0.85); padding: 2rem; border-radius: .5rem;">
+          <h2 class="display-5">ELEVES PROMO 321</h2>
+          <p class="lead">Retrouver la liste des élèves de la promo en cliquant sur le bouton</p>
+          <a href="eleve.php" class="btn btn-danger btn-lg">Liste d'Elèves</a>
+        </div>
     </main>
     <footer class="mt-auto">
         <div class="bg-light text-center py-3 mt-4 fixed-bottom">
