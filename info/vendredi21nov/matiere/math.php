@@ -37,10 +37,56 @@
             </div>
         </nav>
     </header>
-    <footer class="mt-auto">
-        <div class="bg-light text-center py-3 mt-4 fixed-bottom">
-            &copy; 2025 BTS SLAM 1 - Promo 321
+    <section id="menu" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">COURS DE JEUDI</h2>
+          <div class="row g-4"> <!--sert a aligner les cartes avec un espacement-->
+             <div class="col-md-4">
+              <div class="card h-100">
+                <img src="../img/logo_html.jpg" class="card-img-top" alt="Pizza Margherita">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">HTML</h5>
+                  <p class="card-text">Langage de structure : il sert à organiser le contenu d’une page web.</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-outline-primary">voir le cours</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100">
+                <img src="../img/logo_css.jpg" class="card-img-top" alt="Pizza Margherita">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">CSS</h5>
+                  <p class="card-text">Langage de style : il contrôle l’apparence et la mise en forme du contenu HTML.</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                   <button type="button" class="btn btn-outline-primary">voir le cours</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card h-100">
+                <img src="../img/logo_sql.jpg" class="card-img-top" alt="Pizza Margherita">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">SQL</h5>
+                  <p class="card-text">Langage de requête : utilisé pour interagir avec les bases de données relationnelles (comme MySQL, PostgreSQL, Oracle).</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-outline-primary">voir le cours</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
+    </section>
+
+     <footer class="mt-auto">
+      <div class="bg-primary text-white text-center py-3 mt-4 fixed-bottom">
+        &copy; 2025 BTS SLAM 1 - Promo 321
+      </div>
     </footer>
 </body>
 </html>

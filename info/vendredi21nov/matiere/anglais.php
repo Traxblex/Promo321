@@ -37,20 +37,56 @@
             </div>
         </nav>
     </header>
-    <main>
-        <section id="accueil" class="d-flex align-items-center text-white" style="height: 85vh; background-image: url('image1carrousel.jpeg'); background-size: cover; background-position: center;">
-        <div class="container text-center" style="background: rgba(23, 56, 202, 0.45); padding: 2rem; border-radius: .5rem;">
-          <h2 class="display-5">Bienvenue chez Five Pizza</h2>
-          <p class="lead">Des pizzas artisanales préparées avec passion</p>
-          <a href="#menu" class="btn btn-danger btn-lg">Voir le Menu</a>
-        </div>
-      </section> 
-    </main>
+    <section id="menu" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">COURS DE JEUDI</h2>
+          <div class="row g-4"> <!--sert a aligner les cartes avec un espacement-->
+             <div class="col-md-4">
+              <div class="card h-100">
+                <img src="../img/logo_html.jpg" class="card-img-top" alt="Pizza Margherita">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">HTML</h5>
+                  <p class="card-text">Langage de structure : il sert à organiser le contenu d’une page web.</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-outline-primary">voir le cours</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100">
+                <img src="../img/logo_css.jpg" class="card-img-top" alt="Pizza Margherita">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">CSS</h5>
+                  <p class="card-text">Langage de style : il contrôle l’apparence et la mise en forme du contenu HTML.</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                   <button type="button" class="btn btn-outline-primary">voir le cours</button>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-    <footer class="mt-auto">
-        <div class="bg-light text-center py-3 mt-4 fixed-bottom">
-            &copy; 2025 BTS SLAM 1 - Promo 321
+            <div class="col-md-4">
+              <div class="card h-100">
+                <img src="../img/logo_sql.jpg" class="card-img-top" alt="Pizza Margherita">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">SQL</h5>
+                  <p class="card-text">Langage de requête : utilisé pour interagir avec les bases de données relationnelles (comme MySQL, PostgreSQL, Oracle).</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-outline-primary">voir le cours</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
+    </section>
+
+     <footer class="mt-auto">
+      <div class="bg-primary text-white text-center py-3 mt-4 fixed-bottom">
+        &copy; 2025 BTS SLAM 1 - Promo 321
+      </div>
     </footer>
 </body>
 </html>
